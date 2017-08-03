@@ -316,11 +316,7 @@ class EasyBotter
 			$botk2 = "2";//回までOK
 			
 			//制限したいアカウント名をいれる
-			$bottername = array("eastmelo", "A5ELLX", "gegadidsa", "shubousya", "asobigawa_koto", 
-								"eba_kura", "tsumugi_keion", "mikuroup", "kurosakisyun1", "Yu_ko_bot_",
-								"meganekkokawaii", "yuisenpaibot", "maoubot", "yandere_takane", "miku_do",
-								"bang2148", "Bakutterer_0", "otakuofantifa", "3AF5F4", "jisakuzien", 
-								"syanuko8");
+			$bottername = array("");
 			
 //			if(preg_match("@bot@i",(string)$reply->user->screen_name) || in_array((string)$reply->user->screen_name,$bottername)){
 			if(preg_match("@bot@i",(string)$reply["user"]["screen_name"]) || in_array((string)$reply["user"]["screen_name"],$bottername)){

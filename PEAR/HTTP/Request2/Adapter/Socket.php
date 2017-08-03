@@ -1012,5 +1012,4 @@ class HTTP_Request2_Adapter_Socket extends HTTP_Request2_Adapter
         return $data;
     }
 }
-
 ?>
